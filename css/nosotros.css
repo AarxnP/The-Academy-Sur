@@ -1,0 +1,47 @@
+.bi-whatsapp{
+    font-size: 30px;
+    color: white;
+}
+.bi-facebook{
+    font-size: 30px;
+    color: white;
+}
+.bi-instagram{
+    font-size: 30px;
+    color: white;
+}
+.d-flex :hover{
+transform: scale(1.2);
+}
+.title{
+text-align: center;
+padding-top: 0%;
+}
+.text{
+    display: flex;
+    font-size: 100%;
+    text-align: left;
+
+}
+#footer{
+    background-color: black;
+    text-align: center;
+}
+.a{
+    color: white;
+    text-align: center;
+}
+.texxt{
+    display: flex;
+    padding: auto;
+    text-align: center;
+}
+.containerr{
+
+    text-align: center;
+}
+.container{
+    text-align: center;
+    width: 800px;
+    text-align: justify;
+}
