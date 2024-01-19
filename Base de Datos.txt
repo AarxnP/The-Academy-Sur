@@ -1,0 +1,14 @@
+create database proyectoFinal;
+use proyectoFinal;
+create table usuario(
+id int not null auto_increment,
+nombre varchar(20) not null,
+numero_contacto varchar(20) not null,
+email varchar(20) not null,
+asunto varchar(20) not null,
+mensaje text(200),
+constraint primary key(id)
+);
+
+insert into usuario(nombre,numero_contacto,email,asunto,mensaje)
+values('Aarxn','0963813460','aarxndobleaa@gmail.com','cursos','info');
