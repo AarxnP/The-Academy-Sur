@@ -17,7 +17,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="css/consultass.css">
-    <title>Contacto</title>
+    <link rel="icon" href="img/Makeup Sale.png">
+    <title>Contacto | The Academy Sur</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
@@ -73,8 +74,8 @@
                 >Cursos</a
               >
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Presencial</a>
-                <a class="dropdown-item" href="#">Online</a>
+                <a class="dropdown-item" href="#"></a>
+                <a href="presencial.html" style="color: gray;">Presencial</a>
               </div>
             </li>
           </ul>
@@ -91,6 +92,10 @@
               href="https://www.instagram.com/yulivalumakeup?igsh=Z2diY3Z0dzBvZnpj"
               ><i class="bi bi-instagram"></i
             ></a>
+            <ul></ul>
+            <a href="https://www.tiktok.com/@yulivalumakeup?_t=8j8UfzJ1LC1&_r=1">
+              <i class="bi bi-tiktok"></i>
+            </a>
           </form>
         </div>
       </div>
@@ -142,12 +147,12 @@
       contactaremos contigo lo más pronto posible.
     </p>
     <div style="display: flex; justify-content: center; border: solid 5px">
-      <form action="#">
+      <form action="php/registro.php" method="post">
         <br />
         <input
           type="text"
           id="id-Nombre"
-          name="Nombre*"
+          name="Nombre"
           placeholder="Nombre*"
         />
         <br /><br />
@@ -155,7 +160,7 @@
         <input
           type="text"
           id="id-NumC"
-          name="Numero Contacto"
+          name="Numero_Contacto"
           placeholder="Numero de Contacto*"
         />
         <br /><br />
@@ -166,18 +171,19 @@
         <input
           type="asunto"
           id="id-asunto"
-          name="asunto"
-          placeholder="Asunto*"
+          name="Asunto"
+          placeholder="Asunto*"i
         />
         <br /><br />
         <br />
-        <textarea name="comentarios" id="id-comentario" cols="40" rows="5">
+        
+        <textarea name="Comentarios" id="id-comentario" cols="40" rows="5">
 Mensaje
         </textarea>
         <br />
-        <input type="submit" value="Enviar" />
+        <input type="submit" value="Enviar" inputmode="bntEnviar"/>
         <br />
-        <input type="reset" value="Actualizar   " />
+        <input type="reset" value="Actualizar"/>
       </form>
     </div>
     <br> <br>
@@ -187,7 +193,7 @@ Mensaje
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.36145709772265!2d-78.5287278172281!3d-0.24001449348444714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5990cfb34388d%3A0x3719d05291740d23!2sThe%20Academy%20Escuela%20De%20Maquillaje%20Profesional!5e0!3m2!1ses-419!2sec!4v1705065923441!5m2!1ses-419!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <iframe  height="315" src="video/ubi.mp4" title="Makeup Uñas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
   </div>
-    
+    <br>
     <div id="footer">
       <footer>
           <div class="img-2">
@@ -210,6 +216,24 @@ Mensaje
                 0963813460
               </p>
           </div>
+          <form class="d-flex">
+            <a href="https://wa.me/c/593994404028"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <ul></ul>
+            <a href="https://www.facebook.com/yulivalumakeup?mibextid=vk8aRt"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <ul></ul>
+            <a
+              href="https://www.instagram.com/yulivalumakeup?igsh=Z2diY3Z0dzBvZnpj"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <ul></ul>
+          <a href="https://www.tiktok.com/@yulivalumakeup?_t=8j8UfzJ1LC1&_r=1">
+            <i class="bi bi-tiktok"></i>
+          </a>
+          </form>
       </footer>
   </div>
     <script
@@ -217,5 +241,6 @@ Mensaje
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="js/consultas.js"></script>
   </body>
 </html>

@@ -10,6 +10,10 @@
     font-size: 30px;
     color: white;
 }
+.bi-tiktok{
+    font-size: 30px;
+    color: white;
+}
 .d-flex :hover{
 transform: scale(1.2);
 }
@@ -23,4 +27,7 @@ transform: scale(1.2);
 }
 .d-flex{
     text-align: center;
+}
+a{
+    text-decoration: none;
 }

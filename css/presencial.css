@@ -31,6 +31,12 @@ transform: scale(1.2);
 .container{
     text-align: center;
 }
+.containerrr{
+    text-align: center;}
+.containerrrr{
+    text-align: center;
+    font-size: medium;
+}
 a{
     text-decoration: none;
 }
